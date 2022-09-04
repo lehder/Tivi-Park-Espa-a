@@ -1,0 +1,413 @@
+/*.container {
+    font-family: 'poppins' sans-serif;
+    font-size: 1.2rem;
+}*/
+
+/*.card-shadow-lg {
+    border: 1px solid black;
+    //height: 100%;//
+    //width: 100%;
+    //padding: 20px;
+    //margin: 15px;
+}*/
+/*.img-fluid {
+    height: 180px;
+    object-fit: cover;
+}*/
+
+.parrafo-wave {
+    margin: 0;
+    padding: 0 100px;
+    font-size: 1.6rem;
+    color: rgb(0, 6, 79);
+    font-family: Monserrat;
+    font-weight: 500;
+}
+
+.content--title2 {
+    font-family: Monserrat;
+    text-align: center;
+    margin: 20px;
+    color: rgb(255, 167,  0);
+    font-size: 2.5rem;
+}
+.content--parrafo2 {
+    font-size: 1.3rem;
+    text-align: center;
+    color: FFA700;
+    font-family: Monserrat;
+    font-weight: 400;
+}
+
+.content {
+    /*height: 650px;*/
+    width:1400px;
+    margin: 10px 10px;
+    display: flex;
+}
+
+.card {
+    margin: 10px;
+    height: 500px;
+    width: 300px;
+}
+
+.card-img-top {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.card--title-1 {
+    font-size: 1.5rem;
+    color: rgb(255, 167,  0);
+    font-family: Monserrat;
+}
+.card--title-2 {
+    font-size: 1.3rem;
+    color: #00aaf7;
+    font-family: Monserrat;
+}
+.card--title-3 {
+    font-size: 1.3rem;
+    color: #f60c5b;
+    font-family: Monserrat;
+}
+.card--title-4 {
+    font-size: 1.3rem;
+    color: #39c930;
+    font-family: Monserrat;
+}
+.card--title-5 {
+    font-size: 1.3rem;
+    color: #ff9300;
+    font-family: Monserrat;
+}
+.card--title-6 {
+    font-size: 1.3rem;
+    color: #ff1d25;
+    font-family: Monserrat;
+}
+.card-text {
+    font-size: 1.1rem;
+    color: FFA700;
+    font-family: Monserrat;
+    font-weight: 400;
+}
+
+.content-2 {
+    margin: 10px;
+    height: 450px;
+    width: 1400px;
+    display: flex;
+    
+}
+
+.card--content-2 {
+   height: 450px;
+   width: 420px;
+   margin: 0 20px;
+    
+}
+.card--content-image {
+    height: 450px;
+    width: 420px;
+    object-fit: cover;
+  }  
+
+
+
+.card-title2 {
+    font-size: 1.5rem;
+    color: blue;
+}
+.card-text2 {
+    font-size: 1.3rem;
+    color: blue;
+}
+
+.parrafo-wave2 {
+    margin: 0;
+    padding: 70px;
+    font-size: 1.6rem;
+    color: rgb(0, 6, 79);
+    font-family: Monserrat;
+    text-align: center;
+    font-weight: 400;
+}
+.parrafo-wave--logo {
+    vertical-align: 0;
+}
+.google {
+    margin: 20px;
+}
+
+@media screen and (max-width: 1328px) {
+    /** {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }*/
+    .parrafo-wave  {
+        width: 1410px;
+        padding: 0 110px;
+    }
+    .wave {
+        width: 1410px;
+    }
+    .google { 
+        width: 1400px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+	  
+}
+
+@media screen and (max-width: 960px) {
+    .parrafo-wave {
+        width: 1390px;
+        height: 550px; 
+        font-size: 2.5rem;
+        /*text-transform: uppercase;*/
+        font-weight: 500;
+    }
+
+    .wave {
+        width: 1395px;
+    }
+    .content--title2 {
+        text-align: center;
+        font-size: 3.5rem;
+        padding-left: 420px;
+    }
+    .content--parrafo2 {
+        font-size: 3.0rem;
+        width: 1395px;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 1200px;
+        width: 1395px;
+        margin: 40px;
+    }
+    .card {
+        height: 600px;
+        width: 430px;
+       
+    }
+    .card-text { 
+        font-size: 1.6rem;
+    }
+    .parrafo-wave2 {
+        display: inline-block;
+        width: 1380px;
+        font-size: 2.0rem;
+        padding: 5px;
+        margin: 100px 1px 20px 1px;
+    }
+    .google { 
+        width: 1390px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .parrafo-wave {
+        width: 1390px;
+        height: 550px; 
+        font-size: 2.0rem;
+        /*text-transform: uppercase;*/
+        font-weight: 500;
+    }
+
+    .parrafo-wave--logo {
+        vertical-align: 0;
+        height: 180px;
+        width: 180px;
+    }
+
+    .wave {
+        width: 1410px;
+    }
+
+    .content--title2 {
+        display: inline-block;
+        text-align: center;
+        font-size: 3.5rem;
+        margin: 50px 100px;
+    }
+
+    .content--parrafo2 {
+        font-size: 2.5rem;
+        width: 1350px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 1200px;
+        width: 1350px;
+        margin: 40px;
+    }
+
+    .card {
+        height: 600px;
+        width: 430px;
+       
+    }
+
+    .card-img-bottom  {
+        object-fit: cover;
+    }
+    .card-text { 
+        font-size: 1.5rem;
+    }
+
+    .parrafo-wave2 {
+        display: inline-block;
+        width: 1380px;
+        font-size: 2.5rem;
+        padding: 5px;
+        margin: 100px 1px 20px 1px;
+    }
+
+    .google { 
+        width: 1380px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .body {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .parrafo-wave {
+        width: 1390px;
+        height: 700px;
+    }
+    .parrafo-wave {
+        font-size: 2.5rem;
+    }
+    .parrafo-wave--logo {
+        vertical-align: 0;
+        height: 150px;
+        width: 150px;
+    }
+    .wave {
+        width: 1420px;
+    }
+    .content--title2 {
+        display: inline-block;
+        text-align: center;
+        font-size: 4.5rem;
+        margin-left: 50px;
+    }
+    .content--parrafo2 {
+        font-size: 3.5rem;
+        width: 1350px;
+    }
+    .content {
+        display: inline-block;
+        margin: 0 0;
+        padding: 0;
+    }
+    .card {
+        height: 1100px;
+        width: 1420px;
+        margin: 10px 0;
+    }
+    .card-img-bottom {
+        width: 1420px;
+        height: 700px;
+        object-fit: cover;
+    }
+    .card-body {
+        height: 800px;
+        width: 1390px;
+    }
+    .card--title-1 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 500px;
+    }
+    .card-text {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .card--title-2 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 300px; 
+    }
+    .card--title-3 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 400px; 
+    }
+    .card--title-4 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 300px; 
+    }
+    .card--title-5 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 300px; 
+    }
+    .card--title-6 {
+        height: 100px;
+        display: inline-block;
+        text-align: center;
+        font-size: 5.5rem;
+        margin: 50px 300px; 
+    }
+
+    .parrafo-wave2 {
+        width: 1420px;
+        font-size: 4.5rem;
+        padding: 0;
+        margin: 600px 1px 20px;
+    }
+    .parrafo-wave--logo {
+        vertical-align: 0;
+        height: 150px;
+        width: 150px;
+    }
+
+    .content-2 {
+        display: inline-block;
+        height: 1500px;
+        width: 1390px;
+    }
+
+    .card--content-2 {
+        width: 1390px;
+        margin: 20px 0;
+    }
+    .card--content-image {
+        width: 1390px;
+    }
+
+    .google { 
+        width: 1390px;
+    }
+
+}

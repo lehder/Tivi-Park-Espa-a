@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
+body {
+    //font-family: 'Poppins', sans-serif;//
+    font-family: "Segoe IU", sans-serif;
+    
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 800px;
+    background-image: url(/assets/img-tivi/encabezado.jpeg);
+    opacity: 0.99;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    object-fit: cover;
+    background-color: #0093E9;
+    position: relative;
+    color: hsl(233, 100%, 19%);
+    //font-family: "Constantia"//
+    //font-family: fantasy;//
+    font-family: Monserrat;
+}
+
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+
+
+
+
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+    font-size: 2.3rem;
+}
+
+.nav__links {
+    color: hsl(233, 100%, 19%);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.nav__links:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+.nav__links:active {
+    color: red;
+}
+.nav__links::after {
+    content: " | ";
+}
+
+header .text-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.text-header h1 {
+    font-size: 9.9rem;
+    //color:rgba(19, 17, 1, 0.988);
+    //color: transparent; 
+    margin: 0; 
+}
+.text-header h2 {
+    font-size: 3.0rem;
+    font-weight: 300px;
+    //color: rgb(22, 21, 21);
+    margin: 0;
+}
+
+@media screen and (max-width: 1328px) {
+	  .hero {
+        width: 1410px;
+        height: 630px;
+        object-fit: cover;
+      }
+      .container {
+        width: 100%;
+      }
+}
+
+@media screen and (max-width: 1240px) {
+    .hero {
+        height: 630px; 
+        width: 1410px;
+    }
+}
+
+
+
+@media screen and (max-width: 960px) {
+    .hero {
+        width: 1400px;
+        height: 600px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 1410px;
+        height: 500px; 
+    }
+    .text-header h2 {
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text {
+      font-size: 3.5rem;
+    }
+    .hero {
+        height: 900px;
+        width: 88rem;
+    }
+    
+    header .text-header {
+        margin: 100px 40px;
+    }
+    .text-header h1 {
+        font-size: 20.5rem;
+        
+    }
+    .text-header h2 {
+        font-size: 5.5rem;
+    }
+    
+  }
+
+  
+
+
