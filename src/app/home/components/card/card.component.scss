@@ -1,19 +1,7 @@
-/*.container {
-    font-family: 'poppins' sans-serif;
-    font-size: 1.2rem;
-}*/
-
-/*.card-shadow-lg {
-    border: 1px solid black;
-    //height: 100%;//
-    //width: 100%;
-    //padding: 20px;
-    //margin: 15px;
-}*/
-/*.img-fluid {
-    height: 180px;
-    object-fit: cover;
-}*/
+body {
+    width: 1425px;
+    background: #92E1E2;
+}
 
 .parrafo-wave {
     margin: 0;
@@ -22,14 +10,15 @@
     color: rgb(0, 6, 79);
     font-family: Monserrat;
     font-weight: 500;
+    background: #f4a24b;
 }
-
 .content--title2 {
     font-family: Monserrat;
     text-align: center;
     margin: 20px;
     color: rgb(255, 167,  0);
     font-size: 2.5rem;
+    box-shadow: 2px 4px #888888;
 }
 .content--parrafo2 {
     font-size: 1.3rem;
@@ -56,6 +45,11 @@
     height: 300px;
     width: 200px;
     object-fit: cover;
+}
+.card-body {
+    background: #92E1E2;
+    border: 1px solid rgb(227, 224, 224);
+    box-shadow: 0px 10px 10px -6px black;
 }
 .card--title-1 {
     font-size: 1.5rem;
@@ -99,7 +93,7 @@
     height: 450px;
     width: 1400px;
     display: flex;
-    
+    box-shadow: 0px 10px 10px -6px black;
 }
 
 .card--content-2 {
@@ -139,6 +133,7 @@
 }
 .google {
     margin: 20px;
+    box-shadow: 0px 10px 10px -6px black;
 }
 
 @media screen and (max-width: 1328px) {
@@ -165,7 +160,7 @@
 
 @media screen and (max-width: 960px) {
     .parrafo-wave {
-        width: 1390px;
+        width: 1400px;
         height: 550px; 
         font-size: 2.5rem;
         /*text-transform: uppercase;*/
@@ -214,7 +209,7 @@
 
 @media screen and (max-width: 768px) {
     .parrafo-wave {
-        width: 1390px;
+        width: 1410px;
         height: 550px; 
         font-size: 2.0rem;
         /*text-transform: uppercase;*/
@@ -288,14 +283,15 @@
         box-sizing: border-box;
         padding: 0;
         margin: 0;
+        background: #00aaf7;
+        width: 1410px;
     }
     .parrafo-wave {
-        width: 1390px;
+        width: 1410px;
         height: 700px;
-    }
-    .parrafo-wave {
         font-size: 2.5rem;
     }
+    
     .parrafo-wave--logo {
         vertical-align: 0;
         height: 150px;
@@ -331,7 +327,7 @@
     }
     .card-body {
         height: 800px;
-        width: 1390px;
+        width: 1420px;
     }
     .card--title-1 {
         height: 100px;
