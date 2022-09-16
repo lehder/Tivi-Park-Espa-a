@@ -55,7 +55,7 @@ nav {
     color: hsl(233, 100%, 19%);
     font-weight: 300;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .nav__links:hover {
     text-decoration: underline;
@@ -102,6 +102,9 @@ header .text-header {
 }
 
 @media screen and (max-width: 1240px) {
+    .nav__links {
+        font-size: 2.5rem;
+    }
     .hero {
         height: 630px; 
         width: 1410px;
@@ -111,6 +114,9 @@ header .text-header {
 
 
 @media screen and (max-width: 960px) {
+    .nav__links {
+        font-size: 3.5rem;
+    }
     .hero {
         width: 1440px;
         height: 600px; 
@@ -124,6 +130,9 @@ header .text-header {
 }
 
 @media screen and (max-width: 768px) {
+    .nav__links {
+        font-size: 4.5rem;
+    }
     .hero {
         width: 1440px;
         height: 500px; 
@@ -138,6 +147,11 @@ header .text-header {
 }
 
 @media screen and (max-width: 480px) {
+    
+    .nav__links {
+        font-size: 4.5rem;
+    }
+
     .text {
       font-size: 3.5rem;
     }
@@ -156,6 +170,7 @@ header .text-header {
     .text-header h2 {
         font-size: 5.5rem;
     }
+    
     
   }
 
