@@ -5,21 +5,28 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { MatGridListModule } from '@angular/material/grid-list';
 
-//import { HeaderComponent } from './header/header.component';
+import { HomeModule } from './home/home.module';
+import { HeaderComponent } from './header/header.component';
 import { AppComponent } from './app.component';
 import { LayoutComponent } from './layout/layout.component';
-
+import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
+
+
 //import { FooterComponent } from './footer/footer.component';
+
+
+
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    //HeaderComponent,
-    LayoutComponent, 
+    HeaderComponent,
+    LayoutComponent,
+    MenuComponent 
     //FooterComponent,
   ],
   imports: [
@@ -28,7 +35,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    
+    HomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
