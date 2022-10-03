@@ -5,7 +5,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { HomeComponent } from './components/home/home.component'; 
 import { HomeRoutingModule } from './home.routing.module';
 import { CardComponents } from './components/card/card.component';
-import { FooterComponent } from '../footer/footer.component';
+import { FooterComponent } from '../footer/footer.component';  
 import { GoogleMapsModule } from '@angular/google-maps';
 
 
@@ -15,7 +15,7 @@ import { GoogleMapsModule } from '@angular/google-maps';
         BannerComponent,
         CardComponents,
         HomeComponent, 
-        FooterComponent
+        FooterComponent 
     ], 
     imports:  [
         CommonModule,

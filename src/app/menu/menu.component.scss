@@ -35,7 +35,37 @@ body {
         display: block;
     }
     .caja {
-        width: 500px;
-        height: 800px;
+        width: 800px;
+        height: 1080px;
+        margin: 100px 300px 20px  ;
     }
+    .imagen {
+        width: 800px;
+        height: 1080px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 1440px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        width: 1440px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        width: 1410px;
+    } 
+}
+
+@media screen and (max-width: 1328px) {
+    body {
+        width: 1410px; 
+    } 
 }

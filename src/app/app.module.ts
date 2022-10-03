@@ -13,21 +13,12 @@ import { MenuComponent } from './menu/menu.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 
-
-//import { FooterComponent } from './footer/footer.component';
-
-
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LayoutComponent,
-    MenuComponent 
-    //FooterComponent,
+    MenuComponent, 
   ],
   imports: [
     BrowserModule,
